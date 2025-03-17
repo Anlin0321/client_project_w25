@@ -1,0 +1,131 @@
+*{
+    font: Atkinson Hyperlegible;
+    margin: 5px 5p 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+.skip a{
+    position: absolute;
+    top: -40px;
+}
+.skip a:focus{
+    position: absolute;
+    top: 20px;
+    background-color: #FFCB05       ;
+}
+#logo{
+    width: 10%;
+    border: #FFCB05 solid 2px;
+}
+header nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #FFCB05;
+    border: 2px #00274C solid;
+
+}
+h1{
+    background-color: #00274C;
+    color: #ffffff;
+    border:solid 2px #FFCB05;
+    font-weight: bolder;
+    font-size: larger;
+}
+#main section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #00274C;
+    color: #FFCB05;
+    border: #FFCB05 solid 2px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+#main img{
+    width: 80%;
+}
+#main h2{
+    grid-column: 1/-1;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+}
+#main ol{
+    grid-column: 3/-1;
+}
+#main article{
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+#main section:nth-child(2) > p,
+#main section:nth-child(3) > p,
+#main section:nth-child(4) > p{
+    grid-column: 1/-1;
+    color: #00274C;
+    background-color: #FFCB05;
+}
+#main section:nth-child(3) article p{
+    grid-column: 2/-1;
+}
+#life-outside-classroom ul{
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#UMSI_tutoring_main{
+    display: grid;
+    background-color: #00274C;
+    color: #FFCB05;
+    border: #FFCB05 solid 2px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+#UMSI_tutoring_main > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: #00274C;
+    border: 2px solid #FFCB05;
+    color: #ffffff;
+    column-gap: 5px;
+}
+#MSI_academic_advising_main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #FFCB05;
+    border: 2px solid #000000;
+    color: #00274C;
+}
+#MSI_academic_advising_main > p:nth-child(1){
+    font-size: larger;
+    font-weight: bolder;
+    color: #00274C;
+}
+#spectrum_center_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #00274C;
+    border: #FFCB05 solid 2px;
+}
+#spectrum_center_main img{
+    max-width: 80%;
+    border: #FFCB05 2px solid;
+    margin: 2px 2px 2px 2px;
+}
+#spectrum_center_main a:nth-child(5){
+    grid-column: 3/-1;
+}
+#spectrum_center_main p{
+    grid-column: 1/-1;
+    color: #FFCB05;
+}
